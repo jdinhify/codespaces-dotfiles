@@ -1,0 +1,23 @@
+[core]
+  autocrlf = false
+  safecrlf = true
+[color]
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[pull]
+  ff = only
+[push]
+  default = simple
+[user]
+  email = jdinhify@gmail.com
+  name = jd
