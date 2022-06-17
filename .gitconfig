@@ -18,6 +18,3 @@
   ff = only
 [push]
   default = simple
-[user]
-  email = jdinhify@gmail.com
-  name = jd
